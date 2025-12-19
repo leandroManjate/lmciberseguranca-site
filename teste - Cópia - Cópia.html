@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LM Cibersegurança</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+<!-- ================= NAVBAR ================= -->
+<header class="bg-white/90 backdrop-blur border-b border-slate-200 fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <img 
+        src="assets/logo-lm-ciberseguranca-web.png"
+        alt="LM Cibersegurança"
+        class="h-9 w-auto"
+      >
+      <div class="hidden sm:block leading-tight">
+        <div class="text-sm font-semibold text-slate-900">LM Cibersegurança</div>
+        <div class="text-xs text-slate-500">Quando Subestimam, Nós Provamos.</div>
+      </div>
+    </div>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <a href="#servicos" class="hover:text-blue-600">Serviços</a>
+      <a href="#sobre" class="hover:text-blue-600">Sobre</a>
+      <a href="#credenciais" class="hover:text-blue-600">Credenciais</a>
+      <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+      <a href="#contacto"
+         class="ml-2 inline-flex items-center rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 transition">
+        Solicitar contacto
+      </a>
+    </nav>
+
+    <!-- Menu simples mobile -->
+    <a href="#contacto"
+       class="md:hidden inline-flex items-center rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 transition text-sm font-medium">
+      Contacto
+    </a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="pt-36 pb-24 relative text-white">
+  <img 
+    src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+    alt="Infraestrutura tecnológica"
+    class="absolute inset-0 w-full h-full object-cover"
+  >
+  <div class="absolute inset-0 bg-slate-950/80"></div>
+
+  <div class="relative max-w-7xl mx-auto px-6">
+    <div class="max-w-3xl">
+      <span class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm text-slate-100 border border-white/15">
+        Auditoria de TI • Cibersegurança • Consultoria
+      </span>
+
+      <h1 class="mt-6 text-4xl md:text-5xl font-bold leading-tight">
+        Segurança Digital para organizações que não podem falhar
+      </h1>
+
+      <p class="mt-6 text-lg text-slate-200">
+        Serviços profissionais de auditoria de TI e segurança digital para bancos, fintechs,
+        seguradoras e instituições que exigem rigor, confidencialidade e resultados.
+      </p>
+
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <a href="#contacto"
+           class="inline-flex justify-center items-center rounded-lg bg-blue-600 px-6 py-3 font-medium hover:bg-blue-700 transition">
+          Pedir proposta
+        </a>
+        <a href="#servicos"
+           class="inline-flex justify-center items-center rounded-lg bg-white/10 px-6 py-3 font-medium hover:bg-white/15 transition border border-white/15">
+          Ver serviços
+        </a>
+      </div>
+
+      <p class="mt-5 italic text-blue-300 font-medium">
+        “Quando Subestimam, Nós Provamos.”
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVIÇOS ================= -->
+<section id="servicos" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold">Serviços</h2>
+      <p class="mt-4 text-slate-600">
+        Soluções focadas em risco, controlo e robustez operacional — com linguagem e entrega adequadas a ambiente regulado.
+      </p>
+    </div>
+
+    <div class="mt-14 grid md:grid-cols-3 gap-8">
+      <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition bg-white">
+        <div class="text-sm font-semibold text-blue-700">Auditoria</div>
+        <h3 class="mt-2 text-xl font-semibold">Auditoria de TI</h3>
+        <p class="mt-3 text-slate-600">
+          Avaliação de controlos gerais de TI (ITGC), governação, riscos e conformidade,
+          com enfoque em evidência e rastreabilidade.
+        </p>
+        <ul class="mt-5 text-sm text-slate-600 space-y-2 list-disc pl-5">
+          <li>ITGC / GITC</li>
+          <li>Acessos e segregação de funções</li>
+          <li>Gestão de mudanças</li>
+          <li>Operações e continuidade</li>
+        </ul>
+      </div>
+
+      <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition bg-white">
+        <div class="text-sm font-semibold text-blue-700">Proteção</div>
+        <h3 class="mt-2 text-xl font-semibold">Cibersegurança</h3>
+        <p class="mt-3 text-slate-600">
+          Identificação e mitigação de vulnerabilidades, reforço de controlos e melhoria de postura de segurança.
+        </p>
+        <ul class="mt-5 text-sm text-slate-600 space-y-2 list-disc pl-5">
+          <li>Vulnerabilidades e hardening</li>
+          <li>Segurança de redes e endpoints</li>
+          <li>Boas práticas e políticas</li>
+          <li>Monitorização e resposta</li>
+        </ul>
+      </div>
+
+      <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition bg-white">
+        <div class="text-sm font-semibold text-blue-700">Capacitação</div>
+        <h3 class="mt-2 text-xl font-semibold">Formação & Consultoria</h3>
+        <p class="mt-3 text-slate-600">
+          Formação técnica e consultoria adaptadas ao contexto moçambicano, com foco em aplicação prática.
+        </p>
+        <ul class="mt-5 text-sm text-slate-600 space-y-2 list-disc pl-5">
+          <li>Consciencialização e treino</li>
+          <li>ISO 27001 / boas práticas</li>
+          <li>Risco e compliance</li>
+          <li>Planos e roadmaps</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section id="sobre" class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid lg:grid-cols-2 gap-12 items-start">
+      <div>
+        <h2 class="text-3xl font-bold">Sobre a Empresa</h2>
+        <p class="mt-5 text-slate-700 leading-relaxed">
+          A <strong>LM Cibersegurança</strong> presta serviços especializados em auditoria de TI e segurança digital,
+          apoiando organizações que precisam de rigor, confidencialidade e execução técnica consistente.
+        </p>
+        <p class="mt-4 text-slate-700 leading-relaxed">
+          O foco é entregar resultados com evidência, clareza e linguagem adequada para ambientes regulados e exigentes.
+        </p>
+
+        <div class="mt-8 grid sm:grid-cols-3 gap-4">
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <div class="text-sm text-slate-500">Foco</div>
+            <div class="mt-1 font-semibold">Bancos, FinTechs, Seguradoras, Instituições Públicas e Empresas Privadas Reguladas
+</div>
+          </div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <div class="text-sm text-slate-500">Entrega</div>
+            <div class="mt-1 font-semibold">Evidência & Rigor</div>
+          </div>
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <div class="text-sm text-slate-500">Prioridade</div>
+            <div class="mt-1 font-semibold">Confiança</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-slate-200 bg-white p-8">
+        <h3 class="text-xl font-semibold">Áreas de atuação</h3>
+        <p class="mt-3 text-slate-600">
+          Atuação orientada a risco e controlo, com suporte a equipas técnicas e gestão.
+        </p>
+        <div class="mt-6 grid gap-3">
+          <div class="flex items-start gap-3">
+            <div class="mt-1 h-2.5 w-2.5 rounded-full bg-blue-600"></div>
+            <div class="text-slate-700">Auditoria de controlos de TI (ITGC/GITC)</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="mt-1 h-2.5 w-2.5 rounded-full bg-blue-600"></div>
+            <div class="text-slate-700">Segurança de redes, sistemas e aplicações</div>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="mt-1 h-2.5 w-2.5 rounded-full bg-blue-600"></div>
+            <div class="text-slate-700">Políticas, processos e capacitação</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CREDENCIAIS (OEM) ================= -->
+<section id="credenciais" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold">Credenciais</h2>
+      <p class="mt-4 text-slate-600">
+        Informação profissional apresentada de forma discreta e institucional.
+      </p>
+    </div>
+
+    <div class="mt-14 grid lg:grid-cols-3 gap-8">
+      <div class="lg:col-span-2 rounded-2xl border border-slate-200 bg-slate-50 p-8">
+        <h3 class="text-xl font-semibold">Direção Técnica</h3>
+        <p class="mt-4 text-slate-700 leading-relaxed">
+          <strong>Eng.º Leandro Tito Manjate, MSc</strong><br>
+          Membro Efectivo da Ordem dos Engenheiros de Moçambique (OEM)
+          <span class="text-slate-500">— Cédula Profissional n.º 9123</span>
+        </p>
+        <p class="mt-4 text-slate-600 text-sm">
+          Nota: por motivos de privacidade e boa prática, não são publicados documentos oficiais no site público.
+        </p>
+      </div>
+
+      <div class="rounded-2xl border border-slate-200 bg-white p-8">
+        <h3 class="text-xl font-semibold">Princípios</h3>
+        <ul class="mt-4 text-slate-700 space-y-3">
+          <li>• Confidencialidade e ética profissional</li>
+          <li>• Evidência, rastreabilidade e rigor</li>
+          <li>• Comunicação clara e objetiva</li>
+          <li>• Entrega alinhada com risco</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACTO (SEM FORMPSREE PAGE) ================= -->
+<section id="contacto" class="py-24 bg-slate-50">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold">Contacto</h2>
+      <p class="mt-4 text-slate-600">
+        Envie a sua mensagem. Responderemos o mais breve possível.
+      </p>
+    </div>
+
+    <div class="mt-12 rounded-2xl border border-slate-200 bg-white p-8">
+      <form id="contactForm" class="grid gap-6">
+        <input type="text" name="nome" placeholder="Nome" required
+               class="border border-slate-300 p-4 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-600">
+
+        <input type="email" name="email" placeholder="Email" required
+               class="border border-slate-300 p-4 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-600">
+
+        <textarea name="mensagem" rows="6" placeholder="Mensagem" required
+                  class="border border-slate-300 p-4 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+
+        <button type="submit"
+                class="bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition">
+          Enviar mensagem
+        </button>
+
+        <p id="successMessage" class="hidden text-green-600 font-medium text-center">
+          ✔ Mensagem enviada com sucesso. Entraremos em contacto brevemente.
+        </p>
+
+        <p id="errorMessage" class="hidden text-red-600 font-medium text-center">
+          ✖ Ocorreu um erro ao enviar. Por favor, tente novamente.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-slate-950 text-slate-300 py-10">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-6 items-center justify-between">
+    <div class="text-sm">
+      © 2025 <span class="font-semibold">LM Cibersegurança</span>. Todos os direitos reservados.
+    </div>
+    <div class="text-sm text-slate-400">
+      Auditoria de TI • Cibersegurança • Consultoria
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT FORM (SEM REDIRECT) ================= -->
+<script>
+  const form = document.getElementById("contactForm");
+  const successMsg = document.getElementById("successMessage");
+  const errorMsg = document.getElementById("errorMessage");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    successMsg.classList.add("hidden");
+    errorMsg.classList.add("hidden");
+
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xbdrdlab", {
+        method: "POST",
+        body: data,
+        headers: { "Accept": "application/json" }
+      });
+
+      if (response.ok) {
+        form.reset();
+        successMsg.classList.remove("hidden");
+      } else {
+        errorMsg.classList.remove("hidden");
+      }
+    } catch (err) {
+      errorMsg.classList.remove("hidden");
+    }
+  });
+</script>
+
+</body>
+</html>
